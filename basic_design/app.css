@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Genos:ital,wght@1,500&family=M+PLUS+1+Code:wght@300&display=swap');
+
+
+:root{
+    --font-family-nav: 'M PLUS 1 Code', sans-serif;
+    --font-family-body: 'Genos', sans-serif;
+    --font-family-footer: 'Courgette', cursive;
+}
 *{
     margin: 0;
     padding: 0;
@@ -24,6 +32,7 @@ nav ul li{
     font-size: 2rem;
     color: #027b7e;
     padding: 0 3px;
+    font-family: var(--font-family-nav);
 }
 nav ul li:hover{
     background-color: #548b8b;
@@ -53,11 +62,13 @@ nav ul li:hover{
     align-items: center;
     height: 80vh;
     background-color: rgb(118, 240, 118);
+    font-family: var(--font-family-body);
 }
 
 .right_section{
     display: grid;
     height: 80vh;
+    font-family: var(--font-family-body);
 }
 .right_up{
     display: flex;
@@ -85,4 +96,5 @@ footer{
 
 footer p{
     font-size: 30px;
+    font-family: var(--font-family-footer);
 }
