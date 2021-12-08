@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-color: rgb(250, 250, 250);
+}
+
+nav{
+    background-color: rgb(197, 197, 197);
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+nav ul li{
+    list-style: none;
+    font-size: 2rem;
+    color: #027b7e;
+    padding: 0 3px;
+}
+nav ul li:hover{
+    background-color: #548b8b;
+    color: whitesmoke;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#signup{
+    background-color: #548b8b; 
+    color: whitesmoke;
+    border-radius: 10px;
+}
+#signup:hover{ 
+    color: #548b8b; 
+    background-color: rgb(197, 197, 197) !important;
+    border-radius: 10px;
+}
+
+.home_page{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 80vh;
+}
+.left_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: rgb(118, 240, 118);
+}
+
+.right_section{
+    display: grid;
+    height: 80vh;
+}
+.right_up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background-color: rgb(10, 2, 2);
+    color: whitesmoke;
+}
+.right_down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(63, 63, 241);
+    color: turquoise;
+    height: 40vh;
+}
+
+footer{
+    background-color: whitesmoke;
+    text-align: center;
+    color: rgb(44, 7, 80);
+    padding: 2rem 0;
+}
+
+footer p{
+    font-size: 30px;
+}
